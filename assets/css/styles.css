@@ -37,6 +37,19 @@
     margin: 0;
 }
 
+.hero {
+    position: relative;
+    padding-top: 10%; 
+    padding-left: 10%;
+    color: gray;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+ 
+
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -117,3 +130,8 @@ a {
 .nav_toogle-close{
     opacity: 0;
 }
+
+/* .nav_toogle-menu{
+    opacity: 0;
+    transform: rotate(90deg);
+} */
