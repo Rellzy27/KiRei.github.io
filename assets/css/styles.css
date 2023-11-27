@@ -39,7 +39,7 @@
 
 .hero {
     position: relative;
-    padding-top: 10%; 
+    padding-top: 10vh; 
     padding-left: 10%;
     color: gray;
 }
@@ -185,7 +185,7 @@ a {
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
+      height: calc(60vh - 50px);
       overflow-y: auto;
     }
 }
